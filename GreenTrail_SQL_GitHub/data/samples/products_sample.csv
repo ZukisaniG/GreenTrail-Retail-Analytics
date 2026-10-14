@@ -1,0 +1,11 @@
+product_id,sku,product_name,category,unit_price,unit_cost,sustainable_flag,sustainability_score,record_origin
+1,GT-0001,Hiking Jacket Classic 001,Apparel,80.93,44.23,1,91,SYNTHETIC
+2,GT-0002,Hiking Boots Classic 002,Footwear,195.15,121.18,0,48,SYNTHETIC
+3,GT-0003,Tent Classic 003,Camping,200.37,85.37,0,61,SYNTHETIC
+4,GT-0004,Backpack Classic 004,Equipment,157.62,92.34,0,55,SYNTHETIC
+5,GT-0005,Reusable Water Bottle Classic 005,Accessories,79.45,44.84,0,25,SYNTHETIC
+6,GT-0006,Trail Pants Classic 006,Apparel,87.02,57.53,0,69,SYNTHETIC
+7,GT-0007,Trail Runners Eco 007,Footwear,183.45,122.61,1,84,SYNTHETIC
+8,GT-0008,Sleeping Bag Eco 008,Camping,154.43,70.07,1,95,SYNTHETIC
+9,GT-0009,Trekking Poles Eco 009,Equipment,151.36,76.55,1,75,SYNTHETIC
+10,GT-0010,Travel Mug Eco 010,Accessories,32.66,17.18,1,81,SYNTHETIC

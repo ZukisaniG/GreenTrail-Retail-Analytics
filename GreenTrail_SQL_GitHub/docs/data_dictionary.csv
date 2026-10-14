@@ -1,0 +1,82 @@
+table,column,type,description
+original_promotion_observations,store_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+original_promotion_observations,location,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+original_promotion_observations,store_size_sqft,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+original_promotion_observations,store_type,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+original_promotion_observations,promotion_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+original_promotion_observations,promotion_type,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+original_promotion_observations,start_date,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+original_promotion_observations,end_date,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+original_promotion_observations,weekly_sales_during,REAL,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+original_promotion_observations,weekly_sales_before,REAL,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+original_promotion_observations,weekly_sales_after,REAL,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+original_promotion_observations,avg_daily_visits_during,REAL,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+original_promotion_observations,avg_daily_visits_before,REAL,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+original_promotion_observations,avg_daily_visits_after,REAL,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+original_promotion_observations,record_origin,TEXT,"Provenance label: ORIGINAL_UPLOADED, ORIGINAL_STORE_ATTRIBUTES or SYNTHETIC"
+stores,store_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+stores,city,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+stores,state,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+stores,region,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+stores,store_type,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+stores,store_size_sqft,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+stores,opening_date,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+stores,is_original_store,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+stores,record_origin,TEXT,"Provenance label: ORIGINAL_UPLOADED, ORIGINAL_STORE_ATTRIBUTES or SYNTHETIC"
+products,product_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+products,sku,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+products,product_name,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+products,category,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+products,unit_price,REAL,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+products,unit_cost,REAL,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+products,sustainable_flag,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+products,sustainability_score,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+products,record_origin,TEXT,"Provenance label: ORIGINAL_UPLOADED, ORIGINAL_STORE_ATTRIBUTES or SYNTHETIC"
+customer_segments,segment_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+customer_segments,segment_name,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+customer_segments,description,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+customer_segments,record_origin,TEXT,"Provenance label: ORIGINAL_UPLOADED, ORIGINAL_STORE_ATTRIBUTES or SYNTHETIC"
+promotions,promotion_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+promotions,promotion_type,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+promotions,start_date,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+promotions,end_date,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+promotions,discount_rate,REAL,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+promotions,budget_usd,REAL,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+promotions,objective,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+promotions,record_origin,TEXT,"Provenance label: ORIGINAL_UPLOADED, ORIGINAL_STORE_ATTRIBUTES or SYNTHETIC"
+store_promotion_assignments,promotion_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+store_promotion_assignments,store_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+store_promotion_assignments,assignment_group,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+store_promotion_assignments,assignment_method,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+store_promotion_assignments,record_origin,TEXT,"Provenance label: ORIGINAL_UPLOADED, ORIGINAL_STORE_ATTRIBUTES or SYNTHETIC"
+transactions,transaction_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+transactions,store_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+transactions,transaction_date,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+transactions,segment_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+transactions,promotion_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+transactions,transaction_total_usd,REAL,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+transactions,record_origin,TEXT,"Provenance label: ORIGINAL_UPLOADED, ORIGINAL_STORE_ATTRIBUTES or SYNTHETIC"
+transaction_lines,transaction_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+transaction_lines,line_number,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+transaction_lines,product_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+transaction_lines,quantity,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+transaction_lines,unit_price_paid_usd,REAL,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+transaction_lines,unit_cost_usd,REAL,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+transaction_lines,record_origin,TEXT,"Provenance label: ORIGINAL_UPLOADED, ORIGINAL_STORE_ATTRIBUTES or SYNTHETIC"
+monthly_inventory,store_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+monthly_inventory,product_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+monthly_inventory,month,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+monthly_inventory,opening_units,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+monthly_inventory,received_units,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+monthly_inventory,sold_units,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+monthly_inventory,closing_units,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+monthly_inventory,stockout_days,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+monthly_inventory,record_origin,TEXT,"Provenance label: ORIGINAL_UPLOADED, ORIGINAL_STORE_ATTRIBUTES or SYNTHETIC"
+daily_store_traffic,store_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+daily_store_traffic,date,TEXT,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+daily_store_traffic,visits,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+daily_store_traffic,record_origin,TEXT,"Provenance label: ORIGINAL_UPLOADED, ORIGINAL_STORE_ATTRIBUTES or SYNTHETIC"
+campaign_costs,promotion_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+campaign_costs,store_id,INTEGER,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+campaign_costs,cost_usd,REAL,Synthetic field unless original observation table or original store attributes; refer to README for assumptions
+campaign_costs,record_origin,TEXT,"Provenance label: ORIGINAL_UPLOADED, ORIGINAL_STORE_ATTRIBUTES or SYNTHETIC"
