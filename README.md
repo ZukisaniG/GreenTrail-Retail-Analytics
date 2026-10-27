@@ -77,25 +77,25 @@ I built four Power BI report pages to make the results easier to interpret and e
 
 #### Page 1 — Executive Overview
 
-![GreenTrail Executive Overview](docs/screenshots/01_executive_overview.png)
+![Executive Overview](docs/screenshots/01_executive_overview.png)
 
 This page brings together total revenue, gross profit, gross margin, transaction volume and average transaction value. It also shows monthly revenue trends and comparisons by region, product category and customer segment.
 
 #### Page 2 — Store Performance
 
-![GreenTrail Store Performance](docs/screenshots/02_store_performance.png)
+![Store Performance](docs/screenshots/02_store_performance.png)
 
 This page compares the ten highest- and lowest-revenue stores, average revenue per store by region and revenue per square foot by store type. It separates overall sales size from measures of store efficiency.
 
 #### Page 3 — Promotions Analysis
 
-![GreenTrail Promotions Analysis](docs/screenshots/03_promotions_analysis.png)
+![Promotions Analysis](docs/screenshots/03_promotions_analysis.png)
 
 This page examines revenue and gross profit associated with promotion types, recorded campaign costs and promotional versus non-promotional transactions. It describes associations, **not proven incremental sales or return on investment**.
 
 #### Page 4 — Customers & Inventory
 
-![GreenTrail Customers and Inventory](docs/screenshots/04_customers_inventory.png)
+![Customers and Inventory](docs/screenshots/04_customers_inventory.png)
 
 This page looks at average transaction value by customer segment, sustainable-product revenue share, December 2025 closing inventory value and the ten highest-revenue products.
 
